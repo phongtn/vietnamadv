@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "TINA_PUBLIC_IS_LOCAL=true tinacms dev -c \"vite\"",
-    "build": "tinacms build && vite build",
+    "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
